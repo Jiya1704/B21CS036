@@ -116,4 +116,25 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 20. Outline the steps involved in the boot process of XV6. What happens from the moment the computer is powered on to when the XV6 kernel is loaded into memory?
 
 ## Answers
-Please write your answers here
+1)b (a unix-like operating system)
+2)d (DOS)
+3)d (simple)
+4)d (an external program)
+5)
+6)c 
+7)a
+8)a
+9)d
+10)b
+11)c (MIT)
+12) five stages are:
+unused:a process is created
+embryo:a process is initialised but it is not that fully set up.
+sleeping:in this state the process voluntarily wait for some time.
+runnable:
+zombie:
+
+
+13)XV6 basically implements a file system which is 6-layered.The lowest layer is responsible for writing data from the secondary memory. The highest layer is responsible for the  task that the interface can be used by other high level programs.
+14)When we use a function which is provided by some library,it is called library call. When a program want to enter into kernel it makes a request which is called system call.
+16)some commands are: i)ls that shows all the files that are there in that library ii)find:it searches for the text in file that we want iii)echo :it prints
